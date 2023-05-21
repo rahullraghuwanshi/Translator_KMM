@@ -8,6 +8,9 @@ enum class TranslateError {
 }
 
 // custom exception.
+//class TranslateException(val error: TranslateError) : Exception(
+//    message = "An error occurred when translating: $error"
+//)
 class TranslateException(val error: TranslateError) : Exception(
-    message = "An error occurred when translating: $error"
+   "An error occurred when translating: $error"
 )
