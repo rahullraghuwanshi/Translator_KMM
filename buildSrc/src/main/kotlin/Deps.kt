@@ -11,7 +11,8 @@ object Deps {
     const val composeUiToolingPreview = "androidx.compose.ui:ui-tooling-preview:$composeVersion"
     const val composeFoundation = "androidx.compose.foundation:foundation:$composeVersion"
     const val composeMaterial = "androidx.compose.material:material:$composeVersion"
-    const val composeIconsExtended = "androidx.compose.material:material-icons-extended:$composeVersion"
+    const val composeIconsExtended =
+        "androidx.compose.material:material-icons-extended:$composeVersion"
 
     private const val composeNavigationVersion = "2.5.3"
     const val composeNavigation = "androidx.navigation:navigation-compose:$composeNavigationVersion"
@@ -24,7 +25,7 @@ object Deps {
     const val kotlinDateTime = "org.jetbrains.kotlinx:kotlinx-datetime:$dateTimeVersion"
 
     // HILT
-    private const val hiltVersion = "2.42"
+    private const val hiltVersion = "2.46"
     private const val hiltCompilerVersion = "1.0.0"
     const val hiltAndroid = "com.google.dagger:hilt-android:$hiltVersion"
     const val hiltAndroidCompiler = "com.google.dagger:hilt-android-compiler:$hiltVersion"
@@ -47,7 +48,8 @@ object Deps {
     const val androidBuildTools = "com.android.tools.build:gradle:$gradleVersion"
 
     private const val sqlDelightGradleVersion = "1.5.5"
-    const val sqlDelightGradlePlugin = "com.squareup.sqldelight:gradle-plugin:$sqlDelightGradleVersion"
+    const val sqlDelightGradlePlugin =
+        "com.squareup.sqldelight:gradle-plugin:$sqlDelightGradleVersion"
 
     const val hiltGradlePlugin = "com.google.dagger:hilt-android-gradle-plugin:$hiltVersion"
 
@@ -56,7 +58,8 @@ object Deps {
     const val sqlDelightRuntime = "com.squareup.sqldelight:runtime:$sqlDelightVersion"
     const val sqlDelightAndroidDriver = "com.squareup.sqldelight:android-driver:$sqlDelightVersion"
     const val sqlDelightNativeDriver = "com.squareup.sqldelight:native-driver:$sqlDelightVersion"
-    const val sqlDelightCoroutinesExtensions = "com.squareup.sqldelight:coroutines-extensions:$sqlDelightVersion"
+    const val sqlDelightCoroutinesExtensions =
+        "com.squareup.sqldelight:coroutines-extensions:$sqlDelightVersion"
 
     // TESTING
     private const val assertKVersion = "0.25"
